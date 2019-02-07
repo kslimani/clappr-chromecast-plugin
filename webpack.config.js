@@ -67,4 +67,9 @@ module.exports = {
     library: 'ChromecastPlugin',
     libraryTarget: 'umd',
   },
+  // devServer: {
+  //   disableHostCheck: true, // https://github.com/webpack/webpack-dev-server/issues/882
+  //   host: "0.0.0.0",
+  //   port: 8080
+  // },
 };
